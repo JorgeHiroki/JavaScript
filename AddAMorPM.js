@@ -1,3 +1,4 @@
+//Template Strings são strings que permitem expressões embutidas. 
 const suffixAmPm = (h) => `${h%12===0? 12:h%12}${h<12?'am':'pm'}`;
 console.log(0, 5, 12, 15, 23);
 
